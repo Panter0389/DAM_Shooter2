@@ -51,6 +51,7 @@ MonoBehaviour:
   animatore: {fileID: 8793271641266530364}
   body2d: {fileID: 6933424519385495463}
   speedX: 5
+  spriteRenderer: {fileID: 1693093652048833808}
 --- !u!212 &1693093652048833808
 SpriteRenderer:
   serializedVersion: 2

@@ -6,6 +6,7 @@ public class RunningEnemy : BaseEnemy
     bool init = false;
     public Rigidbody2D body2d;
     public float speedX = 5;
+    public SpriteRenderer spriteRenderer;
 
     public void Init(Vector2 targetPos )
     {
@@ -30,6 +31,8 @@ public class RunningEnemy : BaseEnemy
                 body2d.linearVelocityX = speedX;
             else
                 body2d.linearVelocityX = -speedX;
+
+            spriteRenderer.flipX = targetRight;
         }
 
     }
